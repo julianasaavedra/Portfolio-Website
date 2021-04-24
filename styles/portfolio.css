@@ -18,8 +18,18 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
+h2 {
+  font-size: 62px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
+}
 .intro {
   background-color: var(--sencondayr-color);
   text-align: center;
@@ -38,7 +48,7 @@ h1 {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .btn-intro {
@@ -47,5 +57,35 @@ h1 {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
-  padding: 18px 30px;
+  padding: 15px 30px;
+}
+
+.btn-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.books-description {
+  padding: 120px 60 px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  .intro {
+    padding: 80px 20px;
+  }
+
+  .books-description {
+    padding: 0;
+    text-align: center;
+  }
 }
