@@ -30,9 +30,11 @@ p {
   font-size: 16px;
   line-height: 1.7;
 }
+
 img {
   border-radius: 10px;
 }
+
 .intro {
   background-color: var(--sencondayr-color);
   text-align: center;
@@ -76,22 +78,31 @@ img {
   padding: 120px 60 px;
 }
 
-.about-section {
+.content-section {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content-section h1 {
   font-size: 64px;
   line-height: 1;
 }
 
-.about-section h2 {
+.content-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-content {
+.content-section h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+.content {
   margin: 30px;
+}
+
+.content p {
+  font-size: 14px;
 }
 
 @media (max-width: 960px) {
